@@ -1,0 +1,6 @@
+{
+  "app": "mvn exec:java -pl demo-cdk -Dexec.mainClass=com.demo.app.cdk.DemoServerlessApp",
+  "context": {
+    "@aws-cdk/core:newStyleStackSynthesis": "true"
+  }
+}
