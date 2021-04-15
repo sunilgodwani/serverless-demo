@@ -6,6 +6,8 @@ NOTE: In this demo, dynamodb table customers with partition key 'customer_id' ne
 Configure admin profile of target AWS account where you would like to deploy this stack.
 Set AWS profile to targeted account profile
 
+install AWS CDK@1.91.0
+
 export AWS_PROFILE=admin profile name
 
 Verify target account by running
