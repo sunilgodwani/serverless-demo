@@ -58,7 +58,7 @@ public class DemoServerlessStack extends Stack {
             targetlambdaFunctions.add(new LambdaFunction(function));
         });
 
-        createDynamoDBAPIIntegration(apiGatewayResources, null, api, "GET", "job-types", null);
+        //createDynamoDBAPIIntegration(apiGatewayResources, null, api, "GET", "job-types", null);
 
         addCloudwatchEvent(targetlambdaFunctions);
     }
