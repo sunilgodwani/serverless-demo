@@ -6,14 +6,10 @@ NOTE: In this demo, dynamodb table customers with partition key 'customer_id' ne
 Configure admin profile of target AWS account where you would like to deploy this stack.
 Set AWS profile to targeted account profile
 
-export AWS_PROFILE=<admin profile of taregted account>
+export AWS_PROFILE=admin profile name
 
 Verify target account by running
 aws sts get-caller-identity
-
-bootstrap targeted environment as admin if not already bootstraped
-
-cdk bootstrap
 
 Run ./deploy.sh
 

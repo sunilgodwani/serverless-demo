@@ -7,6 +7,7 @@
 ##################################################################################################################
 ############################################## CDK Bootstrap & Deploy ############################################
 mvn clean install package
+cdk bootstrap
 cdk synth
 cdk diff
 cdk deploy demo-serverless --require-approval never
